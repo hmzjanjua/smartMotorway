@@ -1,0 +1,1213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08EEA9AD115BAE261C5473D504F99A37 /* Pods-FWO Smart Motorways-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA2301C9A8D84D2AE2A8D9C17C9ADD1 /* Pods-FWO Smart Motorways-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C41E294C97CB11F6FE556CFB0FBB1A4 /* Timeline.swift */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C70867C10F5D5E19F8E4C427E68FA28E /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F9A7BA71CA0A05C2AD4CED6BF42B381 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8B0631E91050D217D24B0D5C6904D4 /* IsaoTextField.swift */; };
+		2892A963C0D82C0B4E7090FCB0C21041 /* Pods-FWO Smart Motorways-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0A1697743F2FF46D3BC5EE9C10D307 /* Pods-FWO Smart Motorways-dummy.m */; };
+		2AE735FCA0CECBCB739ADCB1240B164A /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA90A3070C9C448661F0DBA204DB65 /* JiroTextField.swift */; };
+		3576C0D14AFA24BA20F0A7772CEB95FD /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9B9BBA48EBF99B4654573B8954C3E7 /* AkiraTextField.swift */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DC26B8044B5C9C6150305D7A7FE7B /* TaskDelegate.swift */; };
+		496CDF91BB4E7ED57CBF9C92AD2011E3 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE643841FBBB60F0E634723C67AEA94B /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D0E2A9E7E0A3744F7A146251274940 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8A67973FA2424439845155305AEF1B /* YoshikoTextField.swift */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909F313BBF2C9D1F522885C137246750 /* Request.swift */; };
+		54AD84D79FEEBD5CF445AFEB89A2E70D /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D21DA6FBC22F545083B5FF02303D977 /* HoshiTextField.swift */; };
+		5B63A3A43B7A6604230DB9282DF148D3 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0334CE3BC86BE3669357547FD284D2B3 /* MinoruTextField.swift */; };
+		5F62B1FCC2CF1F7197C1904A3A8E64E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FD4AAA28C296F961E6C359F6DE84E1 /* DispatchQueue+Alamofire.swift */; };
+		612B19B1B7E7B9CD58121282E8C8E1D1 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A580832E4729CA71FB33AF9E197922E7 /* TextFieldEffects-dummy.m */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38976F2C6B39AF76317FABE07CD14E48 /* ServerTrustPolicy.swift */; };
+		69DCB8DCFD13508D00EB7978998797D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6F525EC901704AC16FC9E5B6DD740ED0 /* Pods-FWO Smart MotorwaysUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ADF5E8795629EF2962E27F4FA6C53F /* Pods-FWO Smart MotorwaysUITests-dummy.m */; };
+		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3BE53FAD9FA43EA18E418AB6AA7E4 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CDB74A0D78C6E52101288513BFA97B /* Result.swift */; };
+		7DB79B27C77C076E79A9E3E5717AEA18 /* Pods-FWO Smart MotorwaysTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4FFA9CED5BB150BA65868B00307F289 /* Pods-FWO Smart MotorwaysTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		896704ED39CF18F3C2B9AE877DFD467B /* Pods-FWO Smart MotorwaysTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14552C7F2B294228B9C69A7F62FC76ED /* Pods-FWO Smart MotorwaysTests-dummy.m */; };
+		9D4EF2956DD673F330C9E461B6FA0E61 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C1D77B0887E4E858773AD841F2A63 /* KaedeTextField.swift */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162946DB4070969E823EB0756BABC7FE /* AFError.swift */; };
+		A0C98570F5EA179C6CA2354E5FE73E08 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F01DB3B9CBA8DAE8621533AFA14029 /* MadokaTextField.swift */; };
+		A13740702F449C3FD7E65F8D4EE162AF /* Pods-FWO Smart MotorwaysUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 027EC979C12274D21EC975311A6E6469 /* Pods-FWO Smart MotorwaysUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6152B789B43E7AF708B44C0CABCACCB6 /* NetworkReachabilityManager.swift */; };
+		A93B269C4D1473D0027AFC63568A699D /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AAD0218DBAD013A87F3CE870A5D7B7 /* YokoTextField.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CD2403781044EBD7CF5E5A31C24B0 /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85D57111C6A731BD50081A38FA2EA2B /* SessionManager.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A848BB04BB2983FF1664992251567 /* MultipartFormData.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E25CCC8832B374B2119BFA436C6FAD /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541B8BD6BB715346463F4F15334BC689 /* ParameterEncoding.swift */; };
+		C8C4907542119F323A28652571183483 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA62908E24A60C60F0F55430D34281 /* TextFieldEffects.swift */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EDCC9A3CED962D448789B6B26BACFE /* Response.swift */; };
+		CE333702365190BE5A6EA53C7EDC2134 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EF57A9D52A79D271A8970CF8BD189CAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C4342FA978329702B889F65CDCA2D3 /* Notifications.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB7A878C6238293000B85DF56297731 /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FED1758D9B8EC730186E8B9332048 /* Alamofire.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DFE0FD4E09AECFBCE8E61F234D2FD3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		8268014C5F313F4C72F6742C3CF0E048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98D9306C0D04F9325C33C7AFE6437F64;
+			remoteInfo = TextFieldEffects;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027EC979C12274D21EC975311A6E6469 /* Pods-FWO Smart MotorwaysUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FWO Smart MotorwaysUITests-umbrella.h"; sourceTree = "<group>"; };
+		02F35B734BC662B00ADE436AA3996945 /* Pods_FWO_Smart_MotorwaysTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FWO_Smart_MotorwaysTests.framework; path = "Pods-FWO Smart MotorwaysTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0334CE3BC86BE3669357547FD284D2B3 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		05A9A9801AE290C6D10C5446C655C2D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9708122C2BB09F4169EA344EEE2DC3 /* Pods-FWO Smart MotorwaysUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FWO Smart MotorwaysUITests-resources.sh"; sourceTree = "<group>"; };
+		0C5A848BB04BB2983FF1664992251567 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		1045A7C4D260150F0C929256AA11D3A1 /* Pods-FWO Smart MotorwaysUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FWO Smart MotorwaysUITests-frameworks.sh"; sourceTree = "<group>"; };
+		14552C7F2B294228B9C69A7F62FC76ED /* Pods-FWO Smart MotorwaysTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FWO Smart MotorwaysTests-dummy.m"; sourceTree = "<group>"; };
+		15EDCC9A3CED962D448789B6B26BACFE /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		162946DB4070969E823EB0756BABC7FE /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		1BCA90A3070C9C448661F0DBA204DB65 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		1CB7A878C6238293000B85DF56297731 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		1F0FED1758D9B8EC730186E8B9332048 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		222C1D77B0887E4E858773AD841F2A63 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		258A2E02EBEE01BB1EAF1E81AE29C952 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		26B8DB8BB189513549445092AF02DDC8 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		2C81F015D42CF586E6E1A4E0302A8E9E /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		2D21DA6FBC22F545083B5FF02303D977 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		30FD4AAA28C296F961E6C359F6DE84E1 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		31ADF5E8795629EF2962E27F4FA6C53F /* Pods-FWO Smart MotorwaysUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FWO Smart MotorwaysUITests-dummy.m"; sourceTree = "<group>"; };
+		38976F2C6B39AF76317FABE07CD14E48 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		3C41E294C97CB11F6FE556CFB0FBB1A4 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		3CA11BCC3CD04B720FF7F8C43D95C105 /* Pods-FWO Smart MotorwaysUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FWO Smart MotorwaysUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D4801378447847C03F6040187B80AC8 /* Pods-FWO Smart MotorwaysTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FWO Smart MotorwaysTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4033C970E948EA9ACF3CEDC8EB1706CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40AAD0218DBAD013A87F3CE870A5D7B7 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		414737F147B26AAE0D20C48A67B17E61 /* Pods-FWO Smart MotorwaysUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWO Smart MotorwaysUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		42CBC14D1FAAA78C7394EEEA11673581 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CDB74A0D78C6E52101288513BFA97B /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		49EE9BBABBA4A206E4D86419EAAB6437 /* Pods_FWO_Smart_Motorways.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FWO_Smart_Motorways.framework; path = "Pods-FWO Smart Motorways.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A78C2F4CC651AD06A628F66735E1EFD /* Pods-FWO Smart MotorwaysTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FWO Smart MotorwaysTests.modulemap"; sourceTree = "<group>"; };
+		5341BE0E0EF78C5217AC49CF0B9CF12E /* Pods-FWO Smart Motorways.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FWO Smart Motorways.modulemap"; sourceTree = "<group>"; };
+		541B8BD6BB715346463F4F15334BC689 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		568CD2403781044EBD7CF5E5A31C24B0 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		5ACCAA83100C955FBB0C47FC5D65A178 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		5B0605F747B2D734E12F8B140E7DFF89 /* Pods-FWO Smart Motorways-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FWO Smart Motorways-frameworks.sh"; sourceTree = "<group>"; };
+		6152B789B43E7AF708B44C0CABCACCB6 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		65C4342FA978329702B889F65CDCA2D3 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69D3FE1FFB3A091238C82DAE90440498 /* Pods-FWO Smart Motorways-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FWO Smart Motorways-resources.sh"; sourceTree = "<group>"; };
+		6AC9FDA7AE5CA8144119F97C63A75E75 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CEEEE3A868E712CB762D2F8E8EE5B15 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		7033261CD0C451F5CF71C31A6D30B586 /* Pods-FWO Smart MotorwaysTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWO Smart MotorwaysTests.debug.xcconfig"; sourceTree = "<group>"; };
+		78C096ED8EA6148D3E195D8771F1D0E2 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		7F1882BC767AEBCC55C20687AC0FB882 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		8002AAD58FA69F2F4754051A2BDE376D /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		89C3BE53FAD9FA43EA18E418AB6AA7E4 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		8BA2301C9A8D84D2AE2A8D9C17C9ADD1 /* Pods-FWO Smart Motorways-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FWO Smart Motorways-umbrella.h"; sourceTree = "<group>"; };
+		909F313BBF2C9D1F522885C137246750 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9477931B2708008ADAD3C774D9BF4A09 /* Pods-FWO Smart MotorwaysUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWO Smart MotorwaysUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9AA588308659DD5DEEF73B5DABAC5E64 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		9C8A67973FA2424439845155305AEF1B /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		9F8506F0EE277D944F79B4F72FA675D0 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		A2E25CCC8832B374B2119BFA436C6FAD /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		A4FFA9CED5BB150BA65868B00307F289 /* Pods-FWO Smart MotorwaysTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FWO Smart MotorwaysTests-umbrella.h"; sourceTree = "<group>"; };
+		A580832E4729CA71FB33AF9E197922E7 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		B22C1CEC38663AFA03F9B5CF5686C2E6 /* Pods-FWO Smart Motorways-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FWO Smart Motorways-acknowledgements.plist"; sourceTree = "<group>"; };
+		B61D074A0FF454A012CCA01DDB7BB1F6 /* Pods_FWO_Smart_MotorwaysUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FWO_Smart_MotorwaysUITests.framework; path = "Pods-FWO Smart MotorwaysUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9B9BBA48EBF99B4654573B8954C3E7 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		C2BD4DC020629134C378A65E97EC409C /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		C511DDA83748C8A92167750D7FB9CDBA /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		C70867C10F5D5E19F8E4C427E68FA28E /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		C7F01DB3B9CBA8DAE8621533AFA14029 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		CB8B0631E91050D217D24B0D5C6904D4 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		CDEA62908E24A60C60F0F55430D34281 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		CF0A1697743F2FF46D3BC5EE9C10D307 /* Pods-FWO Smart Motorways-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FWO Smart Motorways-dummy.m"; sourceTree = "<group>"; };
+		D0719C12349119D832AF184D52465471 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D551764FA9C993E5877B62A123DD5B50 /* Pods-FWO Smart Motorways.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWO Smart Motorways.debug.xcconfig"; sourceTree = "<group>"; };
+		DA29888DE7BE6193C6C5E5251C98A8D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD1FF2875AB78CEF7095ED5C27F5417E /* Pods-FWO Smart Motorways-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FWO Smart Motorways-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF11E9C12C7C6A06E516F986B8A31BB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E67B711112CC6E7F86140EE2CAB07CE0 /* Pods-FWO Smart MotorwaysUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FWO Smart MotorwaysUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E85D57111C6A731BD50081A38FA2EA2B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		E89D377A8DDA67161434351B8CCC51F3 /* Pods-FWO Smart Motorways.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWO Smart Motorways.release.xcconfig"; sourceTree = "<group>"; };
+		E953D4D407F59086A7B2FCB5CCE86F4F /* Pods-FWO Smart MotorwaysUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FWO Smart MotorwaysUITests.modulemap"; sourceTree = "<group>"; };
+		E97DC26B8044B5C9C6150305D7A7FE7B /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		FA216C424BC9B490E573EBC158457311 /* Pods-FWO Smart MotorwaysTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWO Smart MotorwaysTests.release.xcconfig"; sourceTree = "<group>"; };
+		FBE01BDA1E48E152B32CF95361E7B4EB /* Pods-FWO Smart MotorwaysTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FWO Smart MotorwaysTests-resources.sh"; sourceTree = "<group>"; };
+		FD5F01C25DC19ECB9D5D2A00A257E789 /* Pods-FWO Smart MotorwaysTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FWO Smart MotorwaysTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE643841FBBB60F0E634723C67AEA94B /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		FFF1F5DFBD4B850A9E960CB8A8381D5F /* Pods-FWO Smart MotorwaysTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FWO Smart MotorwaysTests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1206B0C0E510220337F5D2F38160C1D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DCB8DCFD13508D00EB7978998797D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B682C6E7F5999241BDCAD638999E2116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF57A9D52A79D271A8970CF8BD189CAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA87F988802306DEABAB51400DF5FB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F62B1FCC2CF1F7197C1904A3A8E64E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D237B8FB4280F429EE277EB51D55A765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE333702365190BE5A6EA53C7EDC2134 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001451DA19910CEE4A4B7AAE5417976A /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				BB9B9BBA48EBF99B4654573B8954C3E7 /* AkiraTextField.swift */,
+				2D21DA6FBC22F545083B5FF02303D977 /* HoshiTextField.swift */,
+				CB8B0631E91050D217D24B0D5C6904D4 /* IsaoTextField.swift */,
+				1BCA90A3070C9C448661F0DBA204DB65 /* JiroTextField.swift */,
+				222C1D77B0887E4E858773AD841F2A63 /* KaedeTextField.swift */,
+				C7F01DB3B9CBA8DAE8621533AFA14029 /* MadokaTextField.swift */,
+				0334CE3BC86BE3669357547FD284D2B3 /* MinoruTextField.swift */,
+				CDEA62908E24A60C60F0F55430D34281 /* TextFieldEffects.swift */,
+				40AAD0218DBAD013A87F3CE870A5D7B7 /* YokoTextField.swift */,
+				9C8A67973FA2424439845155305AEF1B /* YoshikoTextField.swift */,
+				41090171301EEC1F6AC139163B2787A9 /* Support Files */,
+			);
+			name = TextFieldEffects;
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		119AF280463E00971741BAC0CEB13157 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0DDC19E96D6A3F61BCB85DA996335D9 /* Alamofire */,
+				32D97969D808D20F42FBCFBA0DBFCCD7 /* GoogleMaps */,
+				99B6C8D13FC382DA67B26ED75F6CDFC4 /* GooglePlaces */,
+				001451DA19910CEE4A4B7AAE5417976A /* TextFieldEffects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2ED5108D48C57BF949E9E571DE4A81D6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F8506F0EE277D944F79B4F72FA675D0 /* Alamofire.modulemap */,
+				5ACCAA83100C955FBB0C47FC5D65A178 /* Alamofire.xcconfig */,
+				568CD2403781044EBD7CF5E5A31C24B0 /* Alamofire-dummy.m */,
+				78C096ED8EA6148D3E195D8771F1D0E2 /* Alamofire-prefix.pch */,
+				C70867C10F5D5E19F8E4C427E68FA28E /* Alamofire-umbrella.h */,
+				DF11E9C12C7C6A06E516F986B8A31BB0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		3081717E4BE7A80560652048B932CAAE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BE53ECC08B352BC8372CA0D536DA7521 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		32D97969D808D20F42FBCFBA0DBFCCD7 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				3081717E4BE7A80560652048B932CAAE /* Base */,
+				F48469D8E77C2CD24BDEDCF27FAD8458 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		3EE51096EE838BADD38637B7C6A759E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C81F015D42CF586E6E1A4E0302A8E9E /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		41090171301EEC1F6AC139163B2787A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA29888DE7BE6193C6C5E5251C98A8D0 /* Info.plist */,
+				258A2E02EBEE01BB1EAF1E81AE29C952 /* TextFieldEffects.modulemap */,
+				C2BD4DC020629134C378A65E97EC409C /* TextFieldEffects.xcconfig */,
+				A580832E4729CA71FB33AF9E197922E7 /* TextFieldEffects-dummy.m */,
+				7F1882BC767AEBCC55C20687AC0FB882 /* TextFieldEffects-prefix.pch */,
+				FE643841FBBB60F0E634723C67AEA94B /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		67F2406B5627A4B7CC98FCC55A84809C /* Pods-FWO Smart MotorwaysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0719C12349119D832AF184D52465471 /* Info.plist */,
+				E953D4D407F59086A7B2FCB5CCE86F4F /* Pods-FWO Smart MotorwaysUITests.modulemap */,
+				3CA11BCC3CD04B720FF7F8C43D95C105 /* Pods-FWO Smart MotorwaysUITests-acknowledgements.markdown */,
+				E67B711112CC6E7F86140EE2CAB07CE0 /* Pods-FWO Smart MotorwaysUITests-acknowledgements.plist */,
+				31ADF5E8795629EF2962E27F4FA6C53F /* Pods-FWO Smart MotorwaysUITests-dummy.m */,
+				1045A7C4D260150F0C929256AA11D3A1 /* Pods-FWO Smart MotorwaysUITests-frameworks.sh */,
+				0A9708122C2BB09F4169EA344EEE2DC3 /* Pods-FWO Smart MotorwaysUITests-resources.sh */,
+				027EC979C12274D21EC975311A6E6469 /* Pods-FWO Smart MotorwaysUITests-umbrella.h */,
+				414737F147B26AAE0D20C48A67B17E61 /* Pods-FWO Smart MotorwaysUITests.debug.xcconfig */,
+				9477931B2708008ADAD3C774D9BF4A09 /* Pods-FWO Smart MotorwaysUITests.release.xcconfig */,
+			);
+			name = "Pods-FWO Smart MotorwaysUITests";
+			path = "Target Support Files/Pods-FWO Smart MotorwaysUITests";
+			sourceTree = "<group>";
+		};
+		7014E25D21449F85B094DB7A0A1993D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AC9FDA7AE5CA8144119F97C63A75E75 /* Alamofire.framework */,
+				49EE9BBABBA4A206E4D86419EAAB6437 /* Pods_FWO_Smart_Motorways.framework */,
+				02F35B734BC662B00ADE436AA3996945 /* Pods_FWO_Smart_MotorwaysTests.framework */,
+				B61D074A0FF454A012CCA01DDB7BB1F6 /* Pods_FWO_Smart_MotorwaysUITests.framework */,
+				42CBC14D1FAAA78C7394EEEA11673581 /* TextFieldEffects.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				119AF280463E00971741BAC0CEB13157 /* Pods */,
+				7014E25D21449F85B094DB7A0A1993D0 /* Products */,
+				E454B7A5BCAEF932DDBB209D418087F3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86B156FFD625F21B8043A5CD0E9F2651 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8002AAD58FA69F2F4754051A2BDE376D /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		959F77BFAB7665BC84E8CBC63F6D75F1 /* Pods-FWO Smart Motorways */ = {
+			isa = PBXGroup;
+			children = (
+				05A9A9801AE290C6D10C5446C655C2D6 /* Info.plist */,
+				5341BE0E0EF78C5217AC49CF0B9CF12E /* Pods-FWO Smart Motorways.modulemap */,
+				DD1FF2875AB78CEF7095ED5C27F5417E /* Pods-FWO Smart Motorways-acknowledgements.markdown */,
+				B22C1CEC38663AFA03F9B5CF5686C2E6 /* Pods-FWO Smart Motorways-acknowledgements.plist */,
+				CF0A1697743F2FF46D3BC5EE9C10D307 /* Pods-FWO Smart Motorways-dummy.m */,
+				5B0605F747B2D734E12F8B140E7DFF89 /* Pods-FWO Smart Motorways-frameworks.sh */,
+				69D3FE1FFB3A091238C82DAE90440498 /* Pods-FWO Smart Motorways-resources.sh */,
+				8BA2301C9A8D84D2AE2A8D9C17C9ADD1 /* Pods-FWO Smart Motorways-umbrella.h */,
+				D551764FA9C993E5877B62A123DD5B50 /* Pods-FWO Smart Motorways.debug.xcconfig */,
+				E89D377A8DDA67161434351B8CCC51F3 /* Pods-FWO Smart Motorways.release.xcconfig */,
+			);
+			name = "Pods-FWO Smart Motorways";
+			path = "Target Support Files/Pods-FWO Smart Motorways";
+			sourceTree = "<group>";
+		};
+		99B6C8D13FC382DA67B26ED75F6CDFC4 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				FD1B4ED247F31825B182D31DAD7257FF /* Frameworks */,
+				3EE51096EE838BADD38637B7C6A759E1 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE53ECC08B352BC8372CA0D536DA7521 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C511DDA83748C8A92167750D7FB9CDBA /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0DDC19E96D6A3F61BCB85DA996335D9 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				162946DB4070969E823EB0756BABC7FE /* AFError.swift */,
+				1F0FED1758D9B8EC730186E8B9332048 /* Alamofire.swift */,
+				30FD4AAA28C296F961E6C359F6DE84E1 /* DispatchQueue+Alamofire.swift */,
+				0C5A848BB04BB2983FF1664992251567 /* MultipartFormData.swift */,
+				6152B789B43E7AF708B44C0CABCACCB6 /* NetworkReachabilityManager.swift */,
+				65C4342FA978329702B889F65CDCA2D3 /* Notifications.swift */,
+				541B8BD6BB715346463F4F15334BC689 /* ParameterEncoding.swift */,
+				909F313BBF2C9D1F522885C137246750 /* Request.swift */,
+				15EDCC9A3CED962D448789B6B26BACFE /* Response.swift */,
+				1CB7A878C6238293000B85DF56297731 /* ResponseSerialization.swift */,
+				47CDB74A0D78C6E52101288513BFA97B /* Result.swift */,
+				38976F2C6B39AF76317FABE07CD14E48 /* ServerTrustPolicy.swift */,
+				89C3BE53FAD9FA43EA18E418AB6AA7E4 /* SessionDelegate.swift */,
+				E85D57111C6A731BD50081A38FA2EA2B /* SessionManager.swift */,
+				E97DC26B8044B5C9C6150305D7A7FE7B /* TaskDelegate.swift */,
+				3C41E294C97CB11F6FE556CFB0FBB1A4 /* Timeline.swift */,
+				A2E25CCC8832B374B2119BFA436C6FAD /* Validation.swift */,
+				2ED5108D48C57BF949E9E571DE4A81D6 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9871B5390ED27B3EEB88933A068A99D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CEEEE3A868E712CB762D2F8E8EE5B15 /* GoogleMaps.framework */,
+				9AA588308659DD5DEEF73B5DABAC5E64 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E454B7A5BCAEF932DDBB209D418087F3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				959F77BFAB7665BC84E8CBC63F6D75F1 /* Pods-FWO Smart Motorways */,
+				FD1877AE5AEF2ABC15C7ADCCF80C4DEC /* Pods-FWO Smart MotorwaysTests */,
+				67F2406B5627A4B7CC98FCC55A84809C /* Pods-FWO Smart MotorwaysUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F48469D8E77C2CD24BDEDCF27FAD8458 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				D9871B5390ED27B3EEB88933A068A99D /* Frameworks */,
+				86B156FFD625F21B8043A5CD0E9F2651 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		FD1877AE5AEF2ABC15C7ADCCF80C4DEC /* Pods-FWO Smart MotorwaysTests */ = {
+			isa = PBXGroup;
+			children = (
+				4033C970E948EA9ACF3CEDC8EB1706CA /* Info.plist */,
+				4A78C2F4CC651AD06A628F66735E1EFD /* Pods-FWO Smart MotorwaysTests.modulemap */,
+				3D4801378447847C03F6040187B80AC8 /* Pods-FWO Smart MotorwaysTests-acknowledgements.markdown */,
+				FD5F01C25DC19ECB9D5D2A00A257E789 /* Pods-FWO Smart MotorwaysTests-acknowledgements.plist */,
+				14552C7F2B294228B9C69A7F62FC76ED /* Pods-FWO Smart MotorwaysTests-dummy.m */,
+				FFF1F5DFBD4B850A9E960CB8A8381D5F /* Pods-FWO Smart MotorwaysTests-frameworks.sh */,
+				FBE01BDA1E48E152B32CF95361E7B4EB /* Pods-FWO Smart MotorwaysTests-resources.sh */,
+				A4FFA9CED5BB150BA65868B00307F289 /* Pods-FWO Smart MotorwaysTests-umbrella.h */,
+				7033261CD0C451F5CF71C31A6D30B586 /* Pods-FWO Smart MotorwaysTests.debug.xcconfig */,
+				FA216C424BC9B490E573EBC158457311 /* Pods-FWO Smart MotorwaysTests.release.xcconfig */,
+			);
+			name = "Pods-FWO Smart MotorwaysTests";
+			path = "Target Support Files/Pods-FWO Smart MotorwaysTests";
+			sourceTree = "<group>";
+		};
+		FD1B4ED247F31825B182D31DAD7257FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26B8DB8BB189513549445092AF02DDC8 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28EA2BFFA3388AE40C405F3AE645CFA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB79B27C77C076E79A9E3E5717AEA18 /* Pods-FWO Smart MotorwaysTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854705C2E3B09124042D0ECFC14E9758 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496CDF91BB4E7ED57CBF9C92AD2011E3 /* TextFieldEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE09FFA8DA274C259E1605FB86FA51B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EEA9AD115BAE261C5473D504F99A37 /* Pods-FWO Smart Motorways-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C95B135CEAC238995E049DA5280155 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13740702F449C3FD7E65F8D4EE162AF /* Pods-FWO Smart MotorwaysUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1AA28F0782F93E619B206B8A56A2BD21 /* Pods-FWO Smart Motorways */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB47D20CECCD772314F38728DDF38696 /* Build configuration list for PBXNativeTarget "Pods-FWO Smart Motorways" */;
+			buildPhases = (
+				2838096BD780FD5A3F2917951DD14C11 /* Sources */,
+				1206B0C0E510220337F5D2F38160C1D8 /* Frameworks */,
+				CE09FFA8DA274C259E1605FB86FA51B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BE14AF626947D20C617F0300E195F52 /* PBXTargetDependency */,
+				6962CB138F1B9E0E6AE97C11CC0A2325 /* PBXTargetDependency */,
+			);
+			name = "Pods-FWO Smart Motorways";
+			productName = "Pods-FWO Smart Motorways";
+			productReference = 49EE9BBABBA4A206E4D86419EAAB6437 /* Pods_FWO_Smart_Motorways.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F4EAF6A13E975C3A64C2B46A7144B87 /* Pods-FWO Smart MotorwaysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8076D199EDC90FB3F738411BD16990EB /* Build configuration list for PBXNativeTarget "Pods-FWO Smart MotorwaysUITests" */;
+			buildPhases = (
+				5BA49DD41DC35BACA1B4ECDFD43309A2 /* Sources */,
+				CBA87F988802306DEABAB51400DF5FB0 /* Frameworks */,
+				F4C95B135CEAC238995E049DA5280155 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FWO Smart MotorwaysUITests";
+			productName = "Pods-FWO Smart MotorwaysUITests";
+			productReference = B61D074A0FF454A012CCA01DDB7BB1F6 /* Pods_FWO_Smart_MotorwaysUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 6AC9FDA7AE5CA8144119F97C63A75E75 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98D9306C0D04F9325C33C7AFE6437F64 /* TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB52142D101782AF87DC093FF7ECD9D /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildPhases = (
+				0E8DA0232B8CB8CD7EBD3448443DB048 /* Sources */,
+				D237B8FB4280F429EE277EB51D55A765 /* Frameworks */,
+				854705C2E3B09124042D0ECFC14E9758 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = 42CBC14D1FAAA78C7394EEEA11673581 /* TextFieldEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE202BB2A4BC353101B7A1FB6E57AF96 /* Pods-FWO Smart MotorwaysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7E8D3BC52AEB71E89693C6C355D08F2 /* Build configuration list for PBXNativeTarget "Pods-FWO Smart MotorwaysTests" */;
+			buildPhases = (
+				9062EA28DB6B1D61EF60F040C2259D4D /* Sources */,
+				B682C6E7F5999241BDCAD638999E2116 /* Frameworks */,
+				28EA2BFFA3388AE40C405F3AE645CFA1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FWO Smart MotorwaysTests";
+			productName = "Pods-FWO Smart MotorwaysTests";
+			productReference = 02F35B734BC662B00ADE436AA3996945 /* Pods_FWO_Smart_MotorwaysTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7014E25D21449F85B094DB7A0A1993D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				1AA28F0782F93E619B206B8A56A2BD21 /* Pods-FWO Smart Motorways */,
+				DE202BB2A4BC353101B7A1FB6E57AF96 /* Pods-FWO Smart MotorwaysTests */,
+				1F4EAF6A13E975C3A64C2B46A7144B87 /* Pods-FWO Smart MotorwaysUITests */,
+				98D9306C0D04F9325C33C7AFE6437F64 /* TextFieldEffects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E8DA0232B8CB8CD7EBD3448443DB048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3576C0D14AFA24BA20F0A7772CEB95FD /* AkiraTextField.swift in Sources */,
+				54AD84D79FEEBD5CF445AFEB89A2E70D /* HoshiTextField.swift in Sources */,
+				1F9A7BA71CA0A05C2AD4CED6BF42B381 /* IsaoTextField.swift in Sources */,
+				2AE735FCA0CECBCB739ADCB1240B164A /* JiroTextField.swift in Sources */,
+				9D4EF2956DD673F330C9E461B6FA0E61 /* KaedeTextField.swift in Sources */,
+				A0C98570F5EA179C6CA2354E5FE73E08 /* MadokaTextField.swift in Sources */,
+				5B63A3A43B7A6604230DB9282DF148D3 /* MinoruTextField.swift in Sources */,
+				612B19B1B7E7B9CD58121282E8C8E1D1 /* TextFieldEffects-dummy.m in Sources */,
+				C8C4907542119F323A28652571183483 /* TextFieldEffects.swift in Sources */,
+				A93B269C4D1473D0027AFC63568A699D /* YokoTextField.swift in Sources */,
+				52D0E2A9E7E0A3744F7A146251274940 /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2838096BD780FD5A3F2917951DD14C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2892A963C0D82C0B4E7090FCB0C21041 /* Pods-FWO Smart Motorways-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA49DD41DC35BACA1B4ECDFD43309A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F525EC901704AC16FC9E5B6DD740ED0 /* Pods-FWO Smart MotorwaysUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9062EA28DB6B1D61EF60F040C2259D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896704ED39CF18F3C2B9AE877DFD467B /* Pods-FWO Smart MotorwaysTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BE14AF626947D20C617F0300E195F52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = 2DFE0FD4E09AECFBCE8E61F234D2FD3B /* PBXContainerItemProxy */;
+		};
+		6962CB138F1B9E0E6AE97C11CC0A2325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = 98D9306C0D04F9325C33C7AFE6437F64 /* TextFieldEffects */;
+			targetProxy = 8268014C5F313F4C72F6742C3CF0E048 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11B2FE015D7314F6DE9AC7002D6238F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2CB4C0BBF0B7B0407016CE898EB774FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		30F5FF61D1D11DB27C7BE3D8B9DFBCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2BD4DC020629134C378A65E97EC409C /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32F1F660758BA6C4D5FCDFEE4D8BCB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89D377A8DDA67161434351B8CCC51F3 /* Pods-FWO Smart Motorways.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FWO Smart Motorways/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FWO Smart Motorways/Pods-FWO Smart Motorways.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FWO_Smart_Motorways;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33A9287057E842D3CCF724CAC35EC2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414737F147B26AAE0D20C48A67B17E61 /* Pods-FWO Smart MotorwaysUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FWO Smart MotorwaysUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FWO Smart MotorwaysUITests/Pods-FWO Smart MotorwaysUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FWO_Smart_MotorwaysUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69F94BB64F7996E55D0A1F735A764D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9477931B2708008ADAD3C774D9BF4A09 /* Pods-FWO Smart MotorwaysUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FWO Smart MotorwaysUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FWO Smart MotorwaysUITests/Pods-FWO Smart MotorwaysUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FWO_Smart_MotorwaysUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6CD2CF3CB56F8D2390B8CD744515AD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ACCAA83100C955FBB0C47FC5D65A178 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93E2CB9189CBAD6AFCB5BD1D5C2E8D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D551764FA9C993E5877B62A123DD5B50 /* Pods-FWO Smart Motorways.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FWO Smart Motorways/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FWO Smart Motorways/Pods-FWO Smart Motorways.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FWO_Smart_Motorways;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		972BD31D68F98035DE59A64D32AC1F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ACCAA83100C955FBB0C47FC5D65A178 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B06F2F1D24B4485EDA88CF1DE2C9BE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA216C424BC9B490E573EBC158457311 /* Pods-FWO Smart MotorwaysTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FWO Smart MotorwaysTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FWO Smart MotorwaysTests/Pods-FWO Smart MotorwaysTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FWO_Smart_MotorwaysTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EEB94B92F04EF8E9DD2B91D049E77877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7033261CD0C451F5CF71C31A6D30B586 /* Pods-FWO Smart MotorwaysTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FWO Smart MotorwaysTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FWO Smart MotorwaysTests/Pods-FWO Smart MotorwaysTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FWO_Smart_MotorwaysTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6274DF7A96EAB9248F6DB40CD3056EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2BD4DC020629134C378A65E97EC409C /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B2FE015D7314F6DE9AC7002D6238F9 /* Debug */,
+				2CB4C0BBF0B7B0407016CE898EB774FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972BD31D68F98035DE59A64D32AC1F3A /* Debug */,
+				6CD2CF3CB56F8D2390B8CD744515AD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB52142D101782AF87DC093FF7ECD9D /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F5FF61D1D11DB27C7BE3D8B9DFBCDD /* Debug */,
+				F6274DF7A96EAB9248F6DB40CD3056EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8076D199EDC90FB3F738411BD16990EB /* Build configuration list for PBXNativeTarget "Pods-FWO Smart MotorwaysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A9287057E842D3CCF724CAC35EC2EC /* Debug */,
+				69F94BB64F7996E55D0A1F735A764D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB47D20CECCD772314F38728DDF38696 /* Build configuration list for PBXNativeTarget "Pods-FWO Smart Motorways" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E2CB9189CBAD6AFCB5BD1D5C2E8D1A /* Debug */,
+				32F1F660758BA6C4D5FCDFEE4D8BCB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7E8D3BC52AEB71E89693C6C355D08F2 /* Build configuration list for PBXNativeTarget "Pods-FWO Smart MotorwaysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB94B92F04EF8E9DD2B91D049E77877 /* Debug */,
+				B06F2F1D24B4485EDA88CF1DE2C9BE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1095562706283-7eh17hgf0cmcl1evuc5s0eeg5ac6bonj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1095562706283-7eh17hgf0cmcl1evuc5s0eeg5ac6bonj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDZew7OstVfouh5RczeZLpggur5c_BXC3g</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1095562706283</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>FWO.FWO-Smart-Motorways</string>
+	<key>PROJECT_ID</key>
+	<string>fwosm-b7cfd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fwosm-b7cfd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1095562706283:ios:c65f39102689e37a</string>
+	<key>DATABASE_URL</key>
+	<string>https://fwosm-b7cfd.firebaseio.com</string>
+</dict>
+</plist>

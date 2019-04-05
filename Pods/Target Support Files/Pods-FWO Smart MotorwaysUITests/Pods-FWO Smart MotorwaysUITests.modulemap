@@ -1,0 +1,6 @@
+framework module Pods_FWO_Smart_MotorwaysUITests {
+  umbrella header "Pods-FWO Smart MotorwaysUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

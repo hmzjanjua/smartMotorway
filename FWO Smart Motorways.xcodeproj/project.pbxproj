@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2652EB6FD09866AF25DC5D37 /* Pods_FWO_Smart_MotorwaysTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC2BA2CF59530B6A205391C /* Pods_FWO_Smart_MotorwaysTests.framework */; };
+		77CD735DAB7191DF038DC2E7 /* Pods_FWO_Smart_MotorwaysUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466EAF731BAB3B4430D2A560 /* Pods_FWO_Smart_MotorwaysUITests.framework */; };
+		9304638AB7B8E05B66EE2857 /* Pods_FWO_Smart_Motorways.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA534B1053866D9705997E4 /* Pods_FWO_Smart_Motorways.framework */; };
+		9E0D5487201E140C005C833D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0D5486201E140C005C833D /* CoreLocation.framework */; };
+		9E558EBB201D3201000DD0DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E558EBA201D3201000DD0DC /* LoginViewController.swift */; };
+		9E558EBD201DD112000DD0DC /* FSMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E558EBC201DD112000DD0DC /* FSMViewController.swift */; };
+		9EA47B93201C770900622886 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9EA47B92201C770900622886 /* GoogleService-Info.plist */; };
+		9EA47B95201C7AC400622886 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA47B94201C7AC400622886 /* SignupViewController.swift */; };
+		9ECDD3262018A580008ADAFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDD3252018A580008ADAFF /* AppDelegate.swift */; };
+		9ECDD3282018A580008ADAFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDD3272018A580008ADAFF /* ViewController.swift */; };
+		9ECDD32B2018A580008ADAFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECDD3292018A580008ADAFF /* Main.storyboard */; };
+		9ECDD32D2018A580008ADAFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ECDD32C2018A580008ADAFF /* Assets.xcassets */; };
+		9ECDD3302018A580008ADAFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECDD32E2018A580008ADAFF /* LaunchScreen.storyboard */; };
+		9ECDD33B2018A580008ADAFF /* FWO_Smart_MotorwaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDD33A2018A580008ADAFF /* FWO_Smart_MotorwaysTests.swift */; };
+		9ECDD3462018A580008ADAFF /* FWO_Smart_MotorwaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDD3452018A580008ADAFF /* FWO_Smart_MotorwaysUITests.swift */; };
+		9ECDD3542018A715008ADAFF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDD3532018A715008ADAFF /* MenuViewController.swift */; };
+		9ECDD3562018A731008ADAFF /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDD3552018A731008ADAFF /* MenuTableViewCell.swift */; };
+		9ECDD3CE20193610008ADAFF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDD3CD20193610008ADAFF /* GradientView.swift */; };
+		9ECDD3D2201A5670008ADAFF /* SafarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDD3D1201A5670008ADAFF /* SafarViewController.swift */; };
+		9ECDD3D4201A6FF6008ADAFF /* RechargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDD3D3201A6FF6008ADAFF /* RechargeViewController.swift */; };
+		9ECDD3D6201A7357008ADAFF /* JourneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDD3D5201A7357008ADAFF /* JourneyViewController.swift */; };
+		9ECDD3D8201A736D008ADAFF /* SMMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDD3D7201A736D008ADAFF /* SMMViewController.swift */; };
+		9ECDD3DA201A7394008ADAFF /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDD3D9201A7394008ADAFF /* HelpViewController.swift */; };
+		9ECDD3DC201A73EF008ADAFF /* FMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDD3DB201A73EF008ADAFF /* FMViewController.swift */; };
+		9ECDD3DE201A7415008ADAFF /* NearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDD3DD201A7415008ADAFF /* NearbyViewController.swift */; };
+		9ECDD3E0201A742C008ADAFF /* PWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDD3DF201A742B008ADAFF /* PWViewController.swift */; };
+		9ECDD3E2201A744B008ADAFF /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDD3E1201A744B008ADAFF /* LogoutViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ECDD3372018A580008ADAFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ECDD31A2018A57F008ADAFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ECDD3212018A57F008ADAFF;
+			remoteInfo = "FWO Smart Motorways";
+		};
+		9ECDD3422018A580008ADAFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ECDD31A2018A57F008ADAFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ECDD3212018A57F008ADAFF;
+			remoteInfo = "FWO Smart Motorways";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DEE698DE69BAA27EB9F24B9 /* Pods-FWO Smart MotorwaysUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWO Smart MotorwaysUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FWO Smart MotorwaysUITests/Pods-FWO Smart MotorwaysUITests.release.xcconfig"; sourceTree = "<group>"; };
+		32598B02A7654DB05A19BC07 /* Pods-FWO Smart MotorwaysTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWO Smart MotorwaysTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FWO Smart MotorwaysTests/Pods-FWO Smart MotorwaysTests.debug.xcconfig"; sourceTree = "<group>"; };
+		466EAF731BAB3B4430D2A560 /* Pods_FWO_Smart_MotorwaysUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FWO_Smart_MotorwaysUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC2BA2CF59530B6A205391C /* Pods_FWO_Smart_MotorwaysTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FWO_Smart_MotorwaysTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACD5971E12E8CC270D817EE /* Pods-FWO Smart MotorwaysTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWO Smart MotorwaysTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FWO Smart MotorwaysTests/Pods-FWO Smart MotorwaysTests.release.xcconfig"; sourceTree = "<group>"; };
+		6EA534B1053866D9705997E4 /* Pods_FWO_Smart_Motorways.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FWO_Smart_Motorways.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0D5486201E140C005C833D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9E558EBA201D3201000DD0DC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9E558EBC201DD112000DD0DC /* FSMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSMViewController.swift; sourceTree = "<group>"; };
+		9EA47B92201C770900622886 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9EA47B94201C7AC400622886 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		9ECDD3222018A57F008ADAFF /* FWO Smart Motorways.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FWO Smart Motorways.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECDD3252018A580008ADAFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9ECDD3272018A580008ADAFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9ECDD32A2018A580008ADAFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ECDD32C2018A580008ADAFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ECDD32F2018A580008ADAFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9ECDD3312018A580008ADAFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECDD3362018A580008ADAFF /* FWO Smart MotorwaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FWO Smart MotorwaysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECDD33A2018A580008ADAFF /* FWO_Smart_MotorwaysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWO_Smart_MotorwaysTests.swift; sourceTree = "<group>"; };
+		9ECDD33C2018A580008ADAFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECDD3412018A580008ADAFF /* FWO Smart MotorwaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FWO Smart MotorwaysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECDD3452018A580008ADAFF /* FWO_Smart_MotorwaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWO_Smart_MotorwaysUITests.swift; sourceTree = "<group>"; };
+		9ECDD3472018A580008ADAFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECDD3532018A715008ADAFF /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		9ECDD3552018A731008ADAFF /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		9ECDD3CD20193610008ADAFF /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		9ECDD3D1201A5670008ADAFF /* SafarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafarViewController.swift; sourceTree = "<group>"; };
+		9ECDD3D3201A6FF6008ADAFF /* RechargeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RechargeViewController.swift; sourceTree = "<group>"; };
+		9ECDD3D5201A7357008ADAFF /* JourneyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneyViewController.swift; sourceTree = "<group>"; };
+		9ECDD3D7201A736D008ADAFF /* SMMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMMViewController.swift; sourceTree = "<group>"; };
+		9ECDD3D9201A7394008ADAFF /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		9ECDD3DB201A73EF008ADAFF /* FMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMViewController.swift; sourceTree = "<group>"; };
+		9ECDD3DD201A7415008ADAFF /* NearbyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyViewController.swift; sourceTree = "<group>"; };
+		9ECDD3DF201A742B008ADAFF /* PWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWViewController.swift; sourceTree = "<group>"; };
+		9ECDD3E1201A744B008ADAFF /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		BF0BF32D0ADD4B55194C9356 /* Pods-FWO Smart Motorways.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWO Smart Motorways.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FWO Smart Motorways/Pods-FWO Smart Motorways.debug.xcconfig"; sourceTree = "<group>"; };
+		D16C794D8FB14CB57A635B86 /* Pods-FWO Smart MotorwaysUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWO Smart MotorwaysUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FWO Smart MotorwaysUITests/Pods-FWO Smart MotorwaysUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E573A8B3F55BC54A42007575 /* Pods-FWO Smart Motorways.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWO Smart Motorways.release.xcconfig"; path = "Pods/Target Support Files/Pods-FWO Smart Motorways/Pods-FWO Smart Motorways.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ECDD31F2018A57F008ADAFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0D5487201E140C005C833D /* CoreLocation.framework in Frameworks */,
+				9304638AB7B8E05B66EE2857 /* Pods_FWO_Smart_Motorways.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECDD3332018A580008ADAFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2652EB6FD09866AF25DC5D37 /* Pods_FWO_Smart_MotorwaysTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECDD33E2018A580008ADAFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CD735DAB7191DF038DC2E7 /* Pods_FWO_Smart_MotorwaysUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ECDD3192018A57F008ADAFF = {
+			isa = PBXGroup;
+			children = (
+				9ECDD3242018A57F008ADAFF /* FWO Smart Motorways */,
+				9ECDD3392018A580008ADAFF /* FWO Smart MotorwaysTests */,
+				9ECDD3442018A580008ADAFF /* FWO Smart MotorwaysUITests */,
+				9ECDD3232018A57F008ADAFF /* Products */,
+				B76962CB9405B661AC7B536B /* Pods */,
+				E178751473F8B8BAD3157AA7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9ECDD3232018A57F008ADAFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDD3222018A57F008ADAFF /* FWO Smart Motorways.app */,
+				9ECDD3362018A580008ADAFF /* FWO Smart MotorwaysTests.xctest */,
+				9ECDD3412018A580008ADAFF /* FWO Smart MotorwaysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ECDD3242018A57F008ADAFF /* FWO Smart Motorways */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDD3252018A580008ADAFF /* AppDelegate.swift */,
+				9ECDD3D1201A5670008ADAFF /* SafarViewController.swift */,
+				9ECDD3D5201A7357008ADAFF /* JourneyViewController.swift */,
+				9ECDD3272018A580008ADAFF /* ViewController.swift */,
+				9ECDD3292018A580008ADAFF /* Main.storyboard */,
+				9ECDD3552018A731008ADAFF /* MenuTableViewCell.swift */,
+				9E558EBC201DD112000DD0DC /* FSMViewController.swift */,
+				9E558EBA201D3201000DD0DC /* LoginViewController.swift */,
+				9EA47B94201C7AC400622886 /* SignupViewController.swift */,
+				9ECDD3D9201A7394008ADAFF /* HelpViewController.swift */,
+				9ECDD3DD201A7415008ADAFF /* NearbyViewController.swift */,
+				9ECDD3532018A715008ADAFF /* MenuViewController.swift */,
+				9ECDD3DF201A742B008ADAFF /* PWViewController.swift */,
+				9ECDD3E1201A744B008ADAFF /* LogoutViewController.swift */,
+				9ECDD3D3201A6FF6008ADAFF /* RechargeViewController.swift */,
+				9ECDD3DB201A73EF008ADAFF /* FMViewController.swift */,
+				9ECDD3CD20193610008ADAFF /* GradientView.swift */,
+				9ECDD3D7201A736D008ADAFF /* SMMViewController.swift */,
+				9ECDD32C2018A580008ADAFF /* Assets.xcassets */,
+				9ECDD32E2018A580008ADAFF /* LaunchScreen.storyboard */,
+				9EA47B92201C770900622886 /* GoogleService-Info.plist */,
+				9ECDD3312018A580008ADAFF /* Info.plist */,
+			);
+			path = "FWO Smart Motorways";
+			sourceTree = "<group>";
+		};
+		9ECDD3392018A580008ADAFF /* FWO Smart MotorwaysTests */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDD33A2018A580008ADAFF /* FWO_Smart_MotorwaysTests.swift */,
+				9ECDD33C2018A580008ADAFF /* Info.plist */,
+			);
+			path = "FWO Smart MotorwaysTests";
+			sourceTree = "<group>";
+		};
+		9ECDD3442018A580008ADAFF /* FWO Smart MotorwaysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDD3452018A580008ADAFF /* FWO_Smart_MotorwaysUITests.swift */,
+				9ECDD3472018A580008ADAFF /* Info.plist */,
+			);
+			path = "FWO Smart MotorwaysUITests";
+			sourceTree = "<group>";
+		};
+		B76962CB9405B661AC7B536B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF0BF32D0ADD4B55194C9356 /* Pods-FWO Smart Motorways.debug.xcconfig */,
+				E573A8B3F55BC54A42007575 /* Pods-FWO Smart Motorways.release.xcconfig */,
+				32598B02A7654DB05A19BC07 /* Pods-FWO Smart MotorwaysTests.debug.xcconfig */,
+				5ACD5971E12E8CC270D817EE /* Pods-FWO Smart MotorwaysTests.release.xcconfig */,
+				D16C794D8FB14CB57A635B86 /* Pods-FWO Smart MotorwaysUITests.debug.xcconfig */,
+				1DEE698DE69BAA27EB9F24B9 /* Pods-FWO Smart MotorwaysUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E178751473F8B8BAD3157AA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E0D5486201E140C005C833D /* CoreLocation.framework */,
+				6EA534B1053866D9705997E4 /* Pods_FWO_Smart_Motorways.framework */,
+				4BC2BA2CF59530B6A205391C /* Pods_FWO_Smart_MotorwaysTests.framework */,
+				466EAF731BAB3B4430D2A560 /* Pods_FWO_Smart_MotorwaysUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ECDD3212018A57F008ADAFF /* FWO Smart Motorways */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECDD34A2018A580008ADAFF /* Build configuration list for PBXNativeTarget "FWO Smart Motorways" */;
+			buildPhases = (
+				63DFAA0656D057A19F3DBF86 /* [CP] Check Pods Manifest.lock */,
+				9ECDD31E2018A57F008ADAFF /* Sources */,
+				9ECDD31F2018A57F008ADAFF /* Frameworks */,
+				9ECDD3202018A57F008ADAFF /* Resources */,
+				2982E7200525BBEAC093A294 /* [CP] Embed Pods Frameworks */,
+				CFA68D0FF9D73552764BD40E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FWO Smart Motorways";
+			productName = "FWO Smart Motorways";
+			productReference = 9ECDD3222018A57F008ADAFF /* FWO Smart Motorways.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9ECDD3352018A580008ADAFF /* FWO Smart MotorwaysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECDD34D2018A580008ADAFF /* Build configuration list for PBXNativeTarget "FWO Smart MotorwaysTests" */;
+			buildPhases = (
+				3777A194714AD0EF533AA327 /* [CP] Check Pods Manifest.lock */,
+				9ECDD3322018A580008ADAFF /* Sources */,
+				9ECDD3332018A580008ADAFF /* Frameworks */,
+				9ECDD3342018A580008ADAFF /* Resources */,
+				8F237DD388CDC823EE2FF072 /* [CP] Embed Pods Frameworks */,
+				D1662F46126AE2761C50760A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ECDD3382018A580008ADAFF /* PBXTargetDependency */,
+			);
+			name = "FWO Smart MotorwaysTests";
+			productName = "FWO Smart MotorwaysTests";
+			productReference = 9ECDD3362018A580008ADAFF /* FWO Smart MotorwaysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9ECDD3402018A580008ADAFF /* FWO Smart MotorwaysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECDD3502018A580008ADAFF /* Build configuration list for PBXNativeTarget "FWO Smart MotorwaysUITests" */;
+			buildPhases = (
+				21889A6932C1BC2E41AD173A /* [CP] Check Pods Manifest.lock */,
+				9ECDD33D2018A580008ADAFF /* Sources */,
+				9ECDD33E2018A580008ADAFF /* Frameworks */,
+				9ECDD33F2018A580008ADAFF /* Resources */,
+				D23957499C0605DCB4452C36 /* [CP] Embed Pods Frameworks */,
+				7429E8DEC5D5BD10E6BE9F98 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ECDD3432018A580008ADAFF /* PBXTargetDependency */,
+			);
+			name = "FWO Smart MotorwaysUITests";
+			productName = "FWO Smart MotorwaysUITests";
+			productReference = 9ECDD3412018A580008ADAFF /* FWO Smart MotorwaysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ECDD31A2018A57F008ADAFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Frontier Works Organization";
+				TargetAttributes = {
+					9ECDD3212018A57F008ADAFF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Manual;
+					};
+					9ECDD3352018A580008ADAFF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ZM2XDAG4X5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9ECDD3212018A57F008ADAFF;
+					};
+					9ECDD3402018A580008ADAFF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ZM2XDAG4X5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9ECDD3212018A57F008ADAFF;
+					};
+				};
+			};
+			buildConfigurationList = 9ECDD31D2018A57F008ADAFF /* Build configuration list for PBXProject "FWO Smart Motorways" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ECDD3192018A57F008ADAFF;
+			productRefGroup = 9ECDD3232018A57F008ADAFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ECDD3212018A57F008ADAFF /* FWO Smart Motorways */,
+				9ECDD3352018A580008ADAFF /* FWO Smart MotorwaysTests */,
+				9ECDD3402018A580008ADAFF /* FWO Smart MotorwaysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ECDD3202018A57F008ADAFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECDD3302018A580008ADAFF /* LaunchScreen.storyboard in Resources */,
+				9EA47B93201C770900622886 /* GoogleService-Info.plist in Resources */,
+				9ECDD32D2018A580008ADAFF /* Assets.xcassets in Resources */,
+				9ECDD32B2018A580008ADAFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECDD3342018A580008ADAFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECDD33F2018A580008ADAFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21889A6932C1BC2E41AD173A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FWO Smart MotorwaysUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2982E7200525BBEAC093A294 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FWO Smart Motorways/Pods-FWO Smart Motorways-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FWO Smart Motorways/Pods-FWO Smart Motorways-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3777A194714AD0EF533AA327 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FWO Smart MotorwaysTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63DFAA0656D057A19F3DBF86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FWO Smart Motorways-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7429E8DEC5D5BD10E6BE9F98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FWO Smart MotorwaysUITests/Pods-FWO Smart MotorwaysUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F237DD388CDC823EE2FF072 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FWO Smart MotorwaysTests/Pods-FWO Smart MotorwaysTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA68D0FF9D73552764BD40E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FWO Smart Motorways/Pods-FWO Smart Motorways-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FWO Smart Motorways/Pods-FWO Smart Motorways-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1662F46126AE2761C50760A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FWO Smart MotorwaysTests/Pods-FWO Smart MotorwaysTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D23957499C0605DCB4452C36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FWO Smart MotorwaysUITests/Pods-FWO Smart MotorwaysUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ECDD31E2018A57F008ADAFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECDD3D2201A5670008ADAFF /* SafarViewController.swift in Sources */,
+				9ECDD3E0201A742C008ADAFF /* PWViewController.swift in Sources */,
+				9ECDD3D6201A7357008ADAFF /* JourneyViewController.swift in Sources */,
+				9ECDD3DC201A73EF008ADAFF /* FMViewController.swift in Sources */,
+				9ECDD3E2201A744B008ADAFF /* LogoutViewController.swift in Sources */,
+				9ECDD3D8201A736D008ADAFF /* SMMViewController.swift in Sources */,
+				9ECDD3282018A580008ADAFF /* ViewController.swift in Sources */,
+				9ECDD3DE201A7415008ADAFF /* NearbyViewController.swift in Sources */,
+				9ECDD3D4201A6FF6008ADAFF /* RechargeViewController.swift in Sources */,
+				9ECDD3542018A715008ADAFF /* MenuViewController.swift in Sources */,
+				9ECDD3CE20193610008ADAFF /* GradientView.swift in Sources */,
+				9ECDD3562018A731008ADAFF /* MenuTableViewCell.swift in Sources */,
+				9E558EBB201D3201000DD0DC /* LoginViewController.swift in Sources */,
+				9E558EBD201DD112000DD0DC /* FSMViewController.swift in Sources */,
+				9EA47B95201C7AC400622886 /* SignupViewController.swift in Sources */,
+				9ECDD3262018A580008ADAFF /* AppDelegate.swift in Sources */,
+				9ECDD3DA201A7394008ADAFF /* HelpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECDD3322018A580008ADAFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECDD33B2018A580008ADAFF /* FWO_Smart_MotorwaysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECDD33D2018A580008ADAFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECDD3462018A580008ADAFF /* FWO_Smart_MotorwaysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ECDD3382018A580008ADAFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ECDD3212018A57F008ADAFF /* FWO Smart Motorways */;
+			targetProxy = 9ECDD3372018A580008ADAFF /* PBXContainerItemProxy */;
+		};
+		9ECDD3432018A580008ADAFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ECDD3212018A57F008ADAFF /* FWO Smart Motorways */;
+			targetProxy = 9ECDD3422018A580008ADAFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9ECDD3292018A580008ADAFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ECDD32A2018A580008ADAFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9ECDD32E2018A580008ADAFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ECDD32F2018A580008ADAFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ECDD3482018A580008ADAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9ECDD3492018A580008ADAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ECDD34B2018A580008ADAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF0BF32D0ADD4B55194C9356 /* Pods-FWO Smart Motorways.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "FWO Smart Motorways/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FWO.FWO-Smart-Motorways";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9ECDD34C2018A580008ADAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E573A8B3F55BC54A42007575 /* Pods-FWO Smart Motorways.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "FWO Smart Motorways/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FWO.FWO-Smart-Motorways";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9ECDD34E2018A580008ADAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32598B02A7654DB05A19BC07 /* Pods-FWO Smart MotorwaysTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZM2XDAG4X5;
+				INFOPLIST_FILE = "FWO Smart MotorwaysTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FWO.FWO-Smart-MotorwaysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FWO Smart Motorways.app/FWO Smart Motorways";
+			};
+			name = Debug;
+		};
+		9ECDD34F2018A580008ADAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ACD5971E12E8CC270D817EE /* Pods-FWO Smart MotorwaysTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZM2XDAG4X5;
+				INFOPLIST_FILE = "FWO Smart MotorwaysTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FWO.FWO-Smart-MotorwaysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FWO Smart Motorways.app/FWO Smart Motorways";
+			};
+			name = Release;
+		};
+		9ECDD3512018A580008ADAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16C794D8FB14CB57A635B86 /* Pods-FWO Smart MotorwaysUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZM2XDAG4X5;
+				INFOPLIST_FILE = "FWO Smart MotorwaysUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FWO.FWO-Smart-MotorwaysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "FWO Smart Motorways";
+			};
+			name = Debug;
+		};
+		9ECDD3522018A580008ADAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DEE698DE69BAA27EB9F24B9 /* Pods-FWO Smart MotorwaysUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZM2XDAG4X5;
+				INFOPLIST_FILE = "FWO Smart MotorwaysUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FWO.FWO-Smart-MotorwaysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "FWO Smart Motorways";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ECDD31D2018A57F008ADAFF /* Build configuration list for PBXProject "FWO Smart Motorways" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECDD3482018A580008ADAFF /* Debug */,
+				9ECDD3492018A580008ADAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECDD34A2018A580008ADAFF /* Build configuration list for PBXNativeTarget "FWO Smart Motorways" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECDD34B2018A580008ADAFF /* Debug */,
+				9ECDD34C2018A580008ADAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECDD34D2018A580008ADAFF /* Build configuration list for PBXNativeTarget "FWO Smart MotorwaysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECDD34E2018A580008ADAFF /* Debug */,
+				9ECDD34F2018A580008ADAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECDD3502018A580008ADAFF /* Build configuration list for PBXNativeTarget "FWO Smart MotorwaysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECDD3512018A580008ADAFF /* Debug */,
+				9ECDD3522018A580008ADAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ECDD31A2018A57F008ADAFF /* Project object */;
+}

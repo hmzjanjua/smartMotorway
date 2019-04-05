@@ -1,0 +1,6 @@
+framework module Pods_FWO_Smart_Motorways {
+  umbrella header "Pods-FWO Smart Motorways-umbrella.h"
+
+  export *
+  module * { export * }
+}
